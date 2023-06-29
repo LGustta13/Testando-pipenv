@@ -8,9 +8,8 @@ s = "pipenv run python src/app.py"
 i = "pipenv install"
 d = "pipenv run pip freeze"
 
-
 [packages]
-python-dotenv = "*"
+pandas = "*"
 
 [dev-packages]
 
