@@ -4,9 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
-s = "pipenv run python src/app.py"
-i = "pipenv install"
-d = "pipenv run pip freeze"
+start = "pipenv run python src/app.py"
 
 [packages]
 pandas = "*"
