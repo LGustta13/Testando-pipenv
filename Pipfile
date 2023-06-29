@@ -3,6 +3,12 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[scripts]
+s = "pipenv run python src/app.py"
+i = "pipenv install"
+d = "pipenv run pip freeze"
+
+
 [packages]
 python-dotenv = "*"
 
